@@ -5,7 +5,9 @@
     margin: 3rem 3rem;
 }
 
-
+.about-container {
+    width: 100%;
+}
 
 .heading1 {
     color: rgba(0, 0, 0, 0.459);
@@ -31,6 +33,14 @@ p {
 
 @media screen and (max-width: 768px) {
     p{
-        margin: 4rem 1rem;
+        margin: 1rem 0px;
+        font-size: 20px;
+        line-height: 2.5rem;
+    }
+
+    .heading1 {
+        font-size: 32px;
+        margin: 3rem 0px;
     }
 }
+
