@@ -1,0 +1,46 @@
+
+.about-body {
+    text-align: justify;
+    font-size: 24px;
+    margin: 3rem 3rem;
+}
+
+.about-container {
+    width: 100%;
+}
+
+.heading1 {
+    color: rgba(0, 0, 0, 0.459);
+    margin-top: 6rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-shadow: 7px 8px 10px rgba(0,0,0,0.31);
+}
+
+p {
+    margin: 6rem 6rem;
+    line-height: 3.5rem;
+    color: rgba(0, 0, 0, 0.459);
+
+}
+
+@media screen and (max-width: 1050px) {
+    p{
+        margin: 4rem 2rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    p{
+        margin: 1rem 0px;
+        font-size: 20px;
+        line-height: 2.5rem;
+    }
+
+    .heading1 {
+        font-size: 32px;
+        margin: 3rem 0px;
+    }
+}
+
